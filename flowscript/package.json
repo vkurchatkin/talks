@@ -1,0 +1,15 @@
+{
+  "name": "flowscript-talk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cleaver ./presentation.md",
+    "watch": "cleaver watch ./presentation.md"
+  },
+  "author": "vladimir.kurchatkin@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "cleaver": "^0.8.2"
+  }
+}

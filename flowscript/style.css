@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/fira/400.woff2') format('woff2'),
+       url('fonts/fira/400.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 500;
+  src: url('fonts/fira/500.woff2') format('woff2'),
+       url('fonts/fira/500.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Fira Mono';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/fira/700.woff2') format('woff2'),
+       url('fonts/fira/700.woff') format('woff');
+}
+
+th {
+  font-size: 20px;
+  padding: 15px;
+}
+
+tbody td:first-child {
+  font-size: 20px;
+}
+
+tbody td:not(:first-child) {
+  text-align: center;
+}
+
+
+tbody td {
+  padding-bottom: 20px;
+}
+
+pre {
+  background-color: #eee;
+  padding: 10px;
+  margin: 0 auto;
+  width: 80%;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+
+h3 {
+  border: none;
+}
+
+code {
+  font-family: 'Fira Mono';
+  font-size: 17px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  background-color: #eee;
+  padding: 2px;
+}
+
+pre code {
+  font-size: 15px;
+  border: none;
+}
