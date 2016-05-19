@@ -747,16 +747,14 @@ type App = Handler &amp; {
 <li>каналы: промисы; может быть, свои каналы</li>
 <li>горутины: <code>async-await</code></li>
 <li>структурная типизация: <code>type Foo = { foo: string }</code></li>
+<li>простая компиляция, бинарник на выходе</li>
+<li>производительность</li>
 <li>предсказуемый выход:</li>
 </ul>
 <pre><code class="lang-js"><span class="hljs-keyword">async</span> main() {
   <span class="hljs-keyword">const</span> r = <span class="hljs-keyword">await</span> runApp(app);
   process.exit(r);
 }</code></pre>
-<ul>
-<li>простая компиляция, бинарник на выходе</li>
-<li>производительность</li>
-</ul>
 </section>
   </div>
   <div class="slide hidden -" id="slide-22">
